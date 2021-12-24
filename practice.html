@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Practice</title>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+<script src="practice.js"></script>
+</head>
+<body style="background-color:lightblue">
+<div class="container">
+	<center>
+
+	<h1 style="color:red;font-size:30px;">Profile Information</h1>
+         <br> 
+		<div class="form-group">
+			<br>
+		  <label >User Name:</label>
+           <input style="width:30%" type="text" id="user_name" placeholder="user name" class="form-control">
+                <br> <br>
+		   <label >Date Of Birth:</label>
+           <input style="width:30%" type="text" id="DOB" placeholder="DOB" class="form-control">
+		   <br> <br>
+		   <label >Email:</label>
+           <input  style="width:30%" type="text" id="Email" placeholder="Email" class="form-control">
+		   <br> <br>
+		   <label >Phone Number:</label>
+           <input style="width:30%" type="text" id="Phone_Number" placeholder="Phone Number" class="form-control">
+		   <br> <br>
+		   <label >Address:</label>
+           <input  style="width:30%" type="text" id="Address" placeholder="Address" class="form-control">
+             <br>
+		</div>
+
+          <br>
+		<button  onclick="addUser()" class="btn btn-success">Login</button>
+	</center> 
+</div>
+
+</body>
+</html>
